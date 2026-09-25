@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Nishtha Soni — Software Engineer. VIT-AP. Full-stack, AI/ML, backend systems.">
+<title>Nishtha Soni</title>
+<link rel="stylesheet" href="/Users/nishh/Desktop/Portfolio /styles.css">
+
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="ld-logo">N · S</div>
+  <div class="ld-track"><div class="ld-fill" id="ldFill"></div></div>
+  <div class="ld-lbl" id="ldLbl">Initializing</div>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="island-c" id="islandC" role="button" tabindex="0" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation">
+    <span class="island-dot" aria-hidden="true"></span>
+    <span class="island-label" id="islandLabel">Home</span>
+    <span class="island-hint" aria-hidden="true">&#8250;</span>
+  </div>
+  <div class="nav-r">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#" data-page="home" class="active">Home</a></li>
+      <li><a href="#" data-page="about">About</a></li>
+      <li><a href="#" data-page="skills">Skills</a></li>
+      <li><a href="#" data-page="projects">Projects</a></li>
+      <li><a href="#" data-page="experience">Experience</a></li>
+      <li><a href="#" data-page="resume">Resume</a></li>
+      <li><a href="#" data-page="contact">Contact</a></li>
+    </ul>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle theme" style="display:none">&#9788;</button>
+
+  </div>
+</nav>
+<ul class="mob-nav" id="mobNav"></ul>
+
+<!-- APP CONTAINER -->
+<div id="app">
+
+  <!-- ── HOME ─────────────────────────────────────── -->
+  <div id="page-home" class="page active">
+    <div class="home-inner">
+    <div class="home-grid-bg" aria-hidden="true"></div>
+    <div class="home-left">
+      <div class="h-eyebrow">Software Engineer &amp; Builder</div>
+      <h1 class="h-name">Nishtha<br><span class="a">Soni.</span></h1>
+      <p class="h-sub">I <span id="tw" class="tw-cursor"></span> &mdash; building software that solves real problems, from full-stack apps to AI-powered systems.</p>
+      <div class="h-tags">
+        <span class="h-tag">Full-Stack</span>
+        <span class="h-tag">Backend</span>
+        <span class="h-tag">Deep Learning</span>
+        <span class="h-tag">Computer Vision</span>
+        <span class="h-tag">NLP</span>
+        <span class="h-tag">React</span>
+      </div>
+      <div class="h-ctas">
+        <a href="#" data-page="projects" class="btn-a nav-cta">View Projects</a>
+        <a href="#" data-page="resume" class="btn-b nav-cta">View Resume</a>
+        <a href="#" data-page="contact" class="btn-b nav-cta">Let&rsquo;s Talk</a>
+      </div>
+    </div>
+    <div class="home-photo">
+      <img class="home-photo-img" src='/Users/nishh/Desktop/Portfolio /nishtha-hero.jpg' alt="Nishtha Soni">
+    </div>
+    </div><!-- /home-inner -->
+  </div>
+
+  <!-- ── ABOUT ─────────────────────────────────────── -->
+  <div id="page-about" class="page">
+    <div class="sec">
+      <div class="sec-tag">About</div>
+      <h2 class="sec-h">Who I am.</h2>
+      <div class="about-grid rv">
+        <div class="rl d1">
+          <div class="intro-lead">Pre-final year B.Tech CSE<br>at VIT-AP</div>
+          <div class="intro-body">
+            <p>I work with <strong>Python, Java, C++, JavaScript, and SQL</strong> to build full-stack applications, backend systems, and AI-powered tools &mdash; from REST APIs and databases to model training and research pipelines.</p>
+            <p>My strengths span <strong>software engineering and applied AI</strong> &mdash; MERN stack development, computer vision, NLP research, and civic-tech platforms. I enjoy problems that need both solid engineering and thoughtful design.</p>
+            <div class="intro-quote">
+              <p>&ldquo;I don&rsquo;t just study computer science &mdash; I ship software. Every project is built to work in the real world.&rdquo;</p>
+            </div>
+            <p>Actively seeking <strong>software engineering internships and full-time roles</strong> across backend, full-stack, and AI/ML teams.</p>
+          </div>
+        </div>
+        <div class="sc-stack rr">
+          <div class="sc d1"><div class="sc-lbl">Current Status</div><div class="sc-val">Pre-final Year B.Tech Student</div><div class="sc-sub">Computer Science &amp; Engineering &middot; VIT-AP &middot; CGPA 9.00 / 10</div></div>
+          <div class="sc d2"><div class="sc-lbl">Focus Areas</div><div class="sc-val">Software Engineering &middot; AI / ML</div><div class="sc-sub">Full-Stack &middot; Backend &middot; Deep Learning &middot; MERN Stack</div></div>
+          <div class="sc d3"><div class="sc-lbl">Looking For</div><div class="sc-val">Internship &amp; Full-time Roles</div><div class="sc-sub">Software Engineer &middot; Backend &middot; Full-Stack &middot; AI/ML</div></div>
+          <div class="sc d4"><div class="sc-lbl">Location</div><div class="sc-val">Hyderabad, India</div><div class="sc-sub">Open to remote &amp; relocation</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SKILLS ─────────────────────────────────────── -->
+  <div id="page-skills" class="page">
+    <div class="sec">
+      <div class="sec-tag">Technical Skills</div>
+      <h2 class="sec-h">My stack.</h2>
+      <div class="stabs rv">
+        <button class="stab on" data-tab="lang">Languages</button>
+        <button class="stab" data-tab="fe">Frontend</button>
+        <button class="stab" data-tab="be">Backend</button>
+        <button class="stab" data-tab="db">Databases</button>
+        <button class="stab" data-tab="ai">AI / ML</button>
+        <button class="stab" data-tab="tools">Tools &amp; Cloud</button>
+      </div>
+      <div class="rv d1">
+        <div class="skill-panel on" id="tab-lang">
+          <div class="skill-grid">
+            <div class="si"><div class="si-label">Primary &middot; Backends &amp; ML</div><div class="si-value">Python</div></div>
+            <div class="si"><div class="si-label">OOP &middot; Backend Systems</div><div class="si-value">Java</div></div>
+            <div class="si"><div class="si-label">Systems &middot; DSA</div><div class="si-value">C++</div></div>
+            <div class="si"><div class="si-label">Low-Level Programming</div><div class="si-value">C</div></div>
+            <div class="si"><div class="si-label">Full-Stack Development</div><div class="si-value">JavaScript</div></div>
+            <div class="si"><div class="si-label">Queries &middot; Schema Design</div><div class="si-value">SQL</div></div>
+            <div class="si"><div class="si-label">Web Foundations</div><div class="si-value">HTML / CSS</div></div>
+          </div>
+        </div>
+        <div class="skill-panel" id="tab-fe">
+          <div class="skill-grid">
+            <div class="si"><div class="si-label">SPA &middot; Component Architecture</div><div class="si-value">React.js</div></div>
+            <div class="si"><div class="si-label">Semantic Markup</div><div class="si-value">HTML5</div></div>
+            <div class="si"><div class="si-label">Styling &middot; Animations</div><div class="si-value">CSS3</div></div>
+            <div class="si"><div class="si-label">Utility-First CSS Framework</div><div class="si-value">Tailwind CSS</div></div>
+          </div>
+        </div>
+        <div class="skill-panel" id="tab-be">
+          <div class="skill-grid">
+            <div class="si"><div class="si-label">Runtime &middot; REST APIs</div><div class="si-value">Node.js</div></div>
+            <div class="si"><div class="si-label">Web Framework &middot; Middleware</div><div class="si-value">Express.js</div></div>
+            <div class="si"><div class="si-label">Java Backend Framework</div><div class="si-value">Spring Boot</div></div>
+            <div class="si"><div class="si-label">Full-Stack Platform</div><div class="si-value">MERN Stack</div></div>
+          </div>
+        </div>
+        <div class="skill-panel" id="tab-db">
+          <div class="skill-grid">
+            <div class="si"><div class="si-label">NoSQL &middot; Document Store</div><div class="si-value">MongoDB</div></div>
+            <div class="si"><div class="si-label">Relational Database</div><div class="si-value">MySQL</div></div>
+            <div class="si"><div class="si-label">Advanced Relational DB</div><div class="si-value">PostgreSQL</div></div>
+          </div>
+        </div>
+        <div class="skill-panel" id="tab-ai">
+          <div class="skill-grid">
+            <div class="si"><div class="si-label">Deep Learning Framework</div><div class="si-value">PyTorch</div></div>
+            <div class="si"><div class="si-label">ML Model Training</div><div class="si-value">TensorFlow</div></div>
+            <div class="si"><div class="si-label">Transformers &middot; LLMs</div><div class="si-value">Hugging Face</div></div>
+            <div class="si"><div class="si-label">Classical ML</div><div class="si-value">Scikit-learn</div></div>
+            <div class="si"><div class="si-label">Computer Vision</div><div class="si-value">OpenCV</div></div>
+            <div class="si"><div class="si-label">Data Processing</div><div class="si-value">NumPy / Pandas</div></div>
+          </div>
+        </div>
+        <div class="skill-panel" id="tab-tools">
+          <div class="skill-grid">
+            <div class="si"><div class="si-label">Version Control</div><div class="si-value">Git / GitHub</div></div>
+            <div class="si"><div class="si-label">Pipelines &middot; Automation</div><div class="si-value">CI / CD</div></div>
+            <div class="si"><div class="si-label">Cloud Architecting &middot; Certified</div><div class="si-value">AWS</div></div>
+            <div class="si"><div class="si-label">Gen AI Professional &middot; Certified</div><div class="si-value">Oracle Cloud OCI</div></div>
+            <div class="si"><div class="si-label">OS &middot; CLI Workflows</div><div class="si-value">Linux</div></div>
+            <div class="si"><div class="si-label">API Testing &middot; Documentation</div><div class="si-value">Postman</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── PROJECTS ────────────────────────────────────── -->
+  <div id="page-projects" class="page">
+    <div class="sec">
+      <div class="sec-tag">Projects</div>
+      <h2 class="sec-h">Selected projects.</h2>
+      <div class="proj-list rv">
+        <div class="proj-row" onclick="openModal('m1')" tabindex="0" role="button">
+          <div class="pr-n">01</div>
+          <div>
+            <div class="pr-title">JanVaani 2.0</div>
+            <div class="pr-desc">Mobile-first civic engagement platform with AI-powered autofill and automated NLP/ML issue categorization (~85&ndash;90%+ accuracy). Cut complaint-reporting effort ~60&ndash;70%, tracking 1,000+ complaints across 50+ locations.</div>
+            <div class="ptags"><span class="ptag">MERN Stack</span><span class="ptag">MongoDB</span><span class="ptag">REST APIs</span><span class="ptag">Geospatial</span><span class="ptag">React</span></div>
+          </div>
+          <div class="pr-arr">&#8599;</div>
+        </div>
+        <div class="proj-row" onclick="openModal('m2')" tabindex="0" role="button">
+          <div class="pr-n">02</div>
+          <div>
+            <div class="pr-title">TraceID &mdash; CCTV Facial Recognition</div>
+            <div class="pr-desc">Frame-wise facial recognition pipeline for identifying missing persons from CCTV footage. 94% accuracy, 70% manual effort reduction.</div>
+            <div class="ptags"><span class="ptag">Python</span><span class="ptag">OpenCV</span><span class="ptag">Computer Vision</span><span class="ptag">Automation</span></div>
+          </div>
+          <div class="pr-arr">&#8599;</div>
+        </div>
+        <div class="proj-row" onclick="openModal('m3')" tabindex="0" role="button">
+          <div class="pr-n">03</div>
+          <div>
+            <div class="pr-title">Emotional Arcs of Shakespeare</div>
+            <div class="pr-desc">Transformer-based NLP pipeline (DistilRoBERTa, DistilBERT) modeling emotional trajectories of Shakespearean characters. 88.1% emotion classification &amp; 74.3% sentiment accuracy. Submitted to Scientific Reports, March 2026.</div>
+            <div class="ptags"><span class="ptag">PyTorch</span><span class="ptag">HuggingFace</span><span class="ptag">DistilRoBERTa</span><span class="ptag">DistilBERT</span><span class="ptag">NLP</span><span class="ptag">Research</span></div>
+          </div>
+          <div class="pr-arr">&#8599;</div>
+        </div>
+        <div class="proj-row" onclick="openModal('m4')" tabindex="0" role="button">
+          <div class="pr-n">04</div>
+          <div>
+            <div class="pr-title">Brain Tumor Detection &mdash; EfficientNet-B3 &amp; Grad-CAM++</div>
+            <div class="pr-desc">Binary MRI brain-tumor classifier with EfficientNet-B3 and Grad-CAM++ explainability. 98.03% test accuracy, AUC 0.9994, zero false positives.</div>
+            <div class="ptags"><span class="ptag">Deep Learning</span><span class="ptag">PyTorch</span><span class="ptag">Explainable AI</span><span class="ptag">Grad-CAM++</span><span class="ptag">Medical Imaging</span></div>
+          </div>
+          <div class="pr-arr">&#8599;</div>
+        </div>
+        <div class="proj-row" onclick="openModal('m5')" tabindex="0" role="button">
+          <div class="pr-n">05</div>
+          <div>
+            <div class="pr-title">Fuzzy Logic Person Re-Identification</div>
+            <div class="pr-desc">Cross-camera person ReID using a Type-1 Mamdani fuzzy inference system fused with deep features. 99.25% accuracy, 100% Rank-1 on PETS 2009.</div>
+            <div class="ptags"><span class="ptag">Python</span><span class="ptag">PyTorch</span><span class="ptag">ResNet-50</span><span class="ptag">YOLOv8</span><span class="ptag">Fuzzy Logic</span><span class="ptag">GMM</span></div>
+          </div>
+          <div class="pr-arr">&#8599;</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── EXPERIENCE ──────────────────────────────────── -->
+  <div id="page-experience" class="page">
+    <div class="sec">
+      <div class="sec-tag">Experience</div>
+      <h2 class="sec-h">Work &amp; research.</h2>
+
+      <div class="exp-list rv d1">
+        <div class="exp-card">
+          <div class="exp-card-head"><span class="exp-card-title">Brain Tumor Detection &mdash; EfficientNet-B3 &amp; Grad-CAM++</span><span class="exp-card-date">2025</span></div>
+          <div class="exp-card-org">Deep Learning &middot; PyTorch &middot; Explainable AI</div>
+          <ul class="tl-ul">
+            <li>98.03% test accuracy &middot; AUC 0.9994 on a 305-image held-out set</li>
+            <li>Focal Loss, MixUp &amp; CosineAnnealingWarmRestarts to handle class imbalance</li>
+            <li>Grad-CAM++ heatmaps &middot; zero false positives &middot; 2.84% false-negative rate &middot; Cohen&rsquo;s &kappa; 0.97 &middot; F2 0.99</li>
+          </ul>
+        </div>
+        <div class="exp-card">
+          <div class="exp-card-head"><span class="exp-card-title">Fuzzy Logic Person Re-Identification</span><span class="exp-card-date">2025</span></div>
+          <div class="exp-card-org">Research &middot; PyTorch &middot; Fuzzy Logic &middot; GMM</div>
+          <ul class="tl-ul">
+            <li>Type-1 Mamdani fuzzy inference fused with part-based ResNet-50 features</li>
+            <li>GMM-calibrated membership functions &middot; SMOTE balancing &middot; Youden-J / Max-F1 thresholds</li>
+            <li>PETS 2009: 99.25% accuracy &middot; 99.27% ROC-AUC &middot; 98.75% mAP &middot; 100% Rank-1</li>
+          </ul>
+        </div>
+        <div class="exp-card">
+          <div class="exp-card-head"><span class="exp-card-title">NLP Research Paper</span><span class="exp-card-date">Mar 2026</span></div>
+          <div class="exp-card-org">Scientific Reports &middot; Nature Portfolio &middot; Under Review</div>
+          <ul class="tl-ul">
+            <li>Fine-tuned DistilRoBERTa &amp; DistilBERT on Early Modern English corpus</li>
+            <li>Six-class emotion classification (88.1% accuracy) &amp; sentiment analysis (74.3% accuracy)</li>
+            <li>Sentiment arc mapping across all acts and scenes with visualisations</li>
+          </ul>
+        </div>
+        <div class="exp-card">
+          <div class="exp-card-head"><span class="exp-card-title">JanVaani 2.0</span><span class="exp-card-date">2024&ndash;25</span></div>
+          <div class="exp-card-org">MERN Stack &middot; MongoDB &middot; REST APIs</div>
+          <ul class="tl-ul">
+            <li>1st Runner-Up, Smart India Hackathon 2025 finals &middot; 2L+ national submissions</li>
+            <li>AI-powered autofill &middot; ~85&ndash;90%+ NLP/ML issue-categorization accuracy</li>
+            <li>1,000+ complaints tracked across 50+ locations &middot; ~60&ndash;70% less reporting effort</li>
+          </ul>
+        </div>
+        <div class="exp-card">
+          <div class="exp-card-head"><span class="exp-card-title">TraceID &mdash; Facial Recognition</span><span class="exp-card-date">2024</span></div>
+          <div class="exp-card-org">Python &middot; OpenCV &middot; Computer Vision</div>
+          <ul class="tl-ul">
+            <li>94% identification accuracy on CCTV footage</li>
+            <li>70% reduction in manual search effort</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-block rv d2">
+        <div class="exp-col-h">Achievements</div>
+        <div class="cert-grid">
+          <div class="cert-c"><div class="cert-dot"></div><div><div class="cert-name">Smart India Hackathon &mdash; 1st Runner-Up</div><div class="cert-who">2025 Finals &middot; selected from 2L+ national submissions</div></div></div>
+          <div class="cert-c"><div class="cert-dot"></div><div><div class="cert-name">Google Cloud Sprint Hackathon &mdash; Top 10</div><div class="cert-who">Built a scalable analytics solution</div></div></div>
+          <div class="cert-c"><div class="cert-dot"></div><div><div class="cert-name">Vikas Summit Ideathon &mdash; 1st Runner-Up</div><div class="cert-who">&nbsp;</div></div></div>
+        </div>
+      </div>
+
+      <div class="exp-block rv d2">
+        <div class="exp-col-h">Certifications</div>
+        <div class="cert-grid">
+          <div class="cert-c"><div class="cert-dot"></div><div><div class="cert-name">AWS Academy &mdash; Cloud Architecting</div><div class="cert-who">Amazon Web Services &middot; Nov 2025</div></div></div>
+          <div class="cert-c"><div class="cert-dot"></div><div><div class="cert-name">Oracle Cloud &mdash; Gen AI Professional</div><div class="cert-who">Oracle &middot; Aug 2025</div></div></div>
+          <div class="cert-c"><div class="cert-dot"></div><div><div class="cert-name">IBM Cyber Security</div><div class="cert-who">IBM &middot; Jun 2025</div></div></div>
+          <div class="cert-c"><div class="cert-dot"></div><div><div class="cert-name">Crash Course on Python</div><div class="cert-who">Google &middot; Mar 2022</div></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── RESUME ──────────────────────────────────────── -->
+  <div id="page-resume" class="page">
+    <div class="sec">
+      <div class="sec-tag">Resume</div>
+      <h2 class="sec-h">Full overview.</h2>
+      <div class="res-layout">
+        <div class="res-preview rl d1">
+          <div class="res-sec">
+            <div class="res-sh">Education</div>
+            <div class="res-row"><span class="res-t">B.Tech Computer Science &amp; Engineering</span><span class="res-m">2023 &ndash; 2027</span></div>
+            <div class="res-s">Vellore Institute of Technology &ndash; AP &middot; CGPA 9.00 / 10.0</div>
+            <ul class="res-ul">
+              <li>DBMS &middot; Theory of Computation &middot; DSA &middot; DAA &middot; Software Engineering &middot; OS &middot; Networks</li>
+              <li>OOP &middot; AI &middot; Machine Learning &middot; Python &middot; Java</li>
+            </ul>
+          </div>
+          <div class="res-sec">
+            <div class="res-sh">Skills</div>
+            <div class="pills">
+              <span class="pill">Python</span><span class="pill">Java</span><span class="pill">C++</span><span class="pill">JavaScript</span><span class="pill">SQL</span>
+              <span class="pill">React.js</span><span class="pill">Node.js</span><span class="pill">Express</span><span class="pill">MERN</span>
+              <span class="pill">PyTorch</span><span class="pill">TensorFlow</span><span class="pill">HuggingFace</span><span class="pill">OpenCV</span>
+              <span class="pill">AWS</span><span class="pill">Git</span><span class="pill">Postman</span><span class="pill">Linux</span>
+            </div>
+          </div>
+          <div class="res-sec">
+            <div class="res-sh">Projects</div>
+            <div class="res-row"><span class="res-t">JanVaani 2.0</span><span class="res-m">MERN &middot; MongoDB</span></div>
+            <ul class="res-ul"><li>1st Runner-Up, SIH 2025 &middot; ~85&ndash;90%+ NLP categorization accuracy &middot; 1,000+ complaints tracked</li></ul>
+            <div class="res-row" style="margin-top:.7rem"><span class="res-t">TraceID</span><span class="res-m">Python &middot; OpenCV</span></div>
+            <ul class="res-ul"><li>94% accuracy &middot; 70% manual effort reduction</li></ul>
+            <div class="res-row" style="margin-top:.7rem"><span class="res-t">Emotional Arcs of Shakespeare</span><span class="res-m">DistilRoBERTa &middot; DistilBERT</span></div>
+            <ul class="res-ul"><li>88.1% emotion classification &middot; 74.3% sentiment accuracy &middot; Scientific Reports (under review)</li></ul>
+            <div class="res-row" style="margin-top:.7rem"><span class="res-t">Brain Tumor Detection</span><span class="res-m">EfficientNet-B3 &middot; Grad-CAM++</span></div>
+            <ul class="res-ul"><li>98.03% accuracy &middot; AUC 0.9994 &middot; zero false positives &middot; explainable heatmaps</li></ul>
+            <div class="res-row" style="margin-top:.7rem"><span class="res-t">Fuzzy Logic Person Re-ID</span><span class="res-m">Fuzzy Logic &middot; GMM &middot; ResNet-50</span></div>
+            <ul class="res-ul"><li>PETS 2009: 99.25% accuracy &middot; 98.75% mAP &middot; 100% Rank-1</li></ul>
+          </div>
+          <div class="res-sec">
+            <div class="res-sh">Achievements</div>
+            <ul class="res-ul">
+              <li>1st Runner-Up &mdash; Smart India Hackathon 2025 (2L+ submissions)</li>
+              <li>Top 10 &mdash; Google Cloud Sprint Hackathon</li>
+              <li>1st Runner-Up &mdash; Vikas Summit Ideathon</li>
+            </ul>
+          </div>
+          <div class="res-sec">
+            <div class="res-sh">Certifications</div>
+            <ul class="res-ul">
+              <li>AWS Academy &mdash; Cloud Architecting (Nov 2025)</li>
+              <li>Oracle Cloud Infrastructure &mdash; Gen AI Professional (Aug 2025)</li>
+              <li>IBM Cyber Security (Jun 2025)</li>
+              <li>Crash Course on Python &mdash; Google (Mar 2022)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="res-right rr d2">
+          <p class="res-note">Download a copy of my full resume as a PDF, or explore my professional profiles online.</p>
+          <a href="https://linkedin.com/in/nishtthaa" target="_blank" rel="noopener" class="btn-b">LinkedIn Profile</a>
+          <a href="https://github.com/N15H7HA" target="_blank" rel="noopener" class="btn-b">GitHub Profile</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── CONTACT ─────────────────────────────────────── -->
+  <div id="page-contact" class="page">
+    <div class="sec" style="position:relative;overflow:hidden">
+      <div class="contact-orb" aria-hidden="true"></div>
+      <div class="sec-tag">Contact</div>
+      <h2 class="sec-h">Get in touch.</h2>
+      <div class="contact-g rv">
+        <div>
+          <div class="big-cta">Let&rsquo;s<br>build<br><span class="a">together.</span></div>
+          <p class="contact-body">Open to software engineering internships and full-time roles across backend, full-stack, and AI/ML. If you are building something that matters &mdash; I want to hear about it.</p>
+          <div class="soc-row">
+            <a href="https://linkedin.com/in/nishtthaa" target="_blank" rel="noopener" class="soc">LinkedIn</a>
+            <a href="https://github.com/N15H7HA" target="_blank" rel="noopener" class="soc">GitHub</a>
+          </div>
+        </div>
+        <div>
+          <div class="cf-msg" id="cfMsg"></div>
+          <form class="cf" id="cForm" novalidate>
+            <!-- Web3Forms: replace with your own access key from https://web3forms.com (free, emailed to you) -->
+            <input type="hidden" name="access_key" value="f9dc0e4c-7aa3-4159-aa61-6dcbbcf963f9">
+            <input type="hidden" name="subject" value="New message from portfolio contact form">
+            <input type="checkbox" name="botcheck" tabindex="-1" style="display:none" aria-hidden="true">
+            <div class="cf-row">
+              <div class="cf-g"><label class="cf-lbl" for="cfName">Your Name</label><input class="cf-in" id="cfName" name="from_name" type="text" placeholder="Jane Smith" required autocomplete="name"></div>
+              <div class="cf-g"><label class="cf-lbl" for="cfEmail">Your Email</label><input class="cf-in" id="cfEmail" name="from_email" type="email" placeholder="jane@company.com" required autocomplete="email"></div>
+            </div>
+            <div class="cf-g"><label class="cf-lbl" for="cfOrg">Organisation</label><input class="cf-in" id="cfOrg" name="organisation" type="text" placeholder="Company, University, Startup..." autocomplete="organization"></div>
+            <div class="cf-g">
+              <label class="cf-lbl" for="cfReason">Reason for Reaching Out</label>
+              <select class="cf-sel" id="cfReason" name="reason" required>
+                <option value="" disabled selected>Select&hellip;</option>
+                <option>Internship Opportunity</option>
+                <option>Full-time Role</option>
+                <option>Research Collaboration</option>
+                <option>Project / Freelance Work</option>
+                <option>Hackathon / Event</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="cf-g"><label class="cf-lbl" for="cfMsgIn">Message</label><textarea class="cf-ta" id="cfMsgIn" name="message" placeholder="Tell me about the opportunity or project..." required></textarea></div>
+            <button class="cf-btn" id="cfBtn" type="submit">
+              <span class="bt">Send Message</span>
+              <span class="bs"><div class="spin"></div></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /app -->
+
+<footer>
+  <span class="f-l">&copy; 2025 Nishtha Soni. All rights reserved.</span>
+  <span class="f-r">VIT-AP &middot; Software Engineering &middot; Builder</span>
+</footer>
+
+<!-- PROJECT MODALS -->
+<div class="mbg" id="m1" role="dialog" aria-modal="true" aria-labelledby="m1t"><div class="modal">
+  <div class="m-head"><h2 class="m-title" id="m1t">JanVaani 2.0</h2><button class="m-close" onclick="closeModal('m1')" aria-label="Close">&times;</button></div>
+  <div class="m-body">
+    <div class="kpis"><div class="kpi"><div class="kpi-n">1st RU</div><div class="kpi-l">SIH 2025 finals</div></div><div class="kpi"><div class="kpi-n">85&ndash;90%+</div><div class="kpi-l">Categorization acc.</div></div><div class="kpi"><div class="kpi-n">1K+</div><div class="kpi-l">Complaints tracked</div></div><div class="kpi"><div class="kpi-n">70%</div><div class="kpi-l">Perf. gain</div></div></div>
+    <div class="m-sh">Problem Statement</div><p class="m-p">Citizens have no efficient way to report civic issues to municipalities, leading to slow resolution, duplicate reports, and zero accountability.</p>
+    <div class="m-sh">Architecture</div><p class="m-p">React PWA &rarr; Node / Express REST API &rarr; MongoDB Atlas with geospatial indexing &rarr; Role-based middleware &rarr; RESTful API layer with optimised query caching.</p>
+    <div class="m-sh">Key Features</div>
+    <ul class="m-ul">
+      <li>AI-powered autofill and structured issue-submission flows, cutting complaint-reporting effort by ~60&ndash;70% and manual data-entry fields by ~50%</li>
+      <li>Automated civic-issue categorization via NLP/ML at ~85&ndash;90%+ classification accuracy</li>
+      <li>Real-time tracking of 1,000+ complaints via map-based visualisation and geolocation mapping across 50+ locations</li>
+      <li>Role-based access control: citizen, field officer, administrator</li>
+      <li>Dashboards monitoring 5+ key metrics (volume, category distribution, resolution status, priority, geographic hotspots) plus community upvoting for citizen-driven prioritisation</li>
+    </ul>
+    <div class="m-sh">Recognition</div><p class="m-p">Presented to the Smart India Hackathon 2025 finals judging panel, which reported no further improvement recommendations &mdash; finishing 1st Runner-Up among 2L+ national submissions.</p>
+    <div class="m-sh">Challenges</div><p class="m-p">Scaling geospatial queries to 1,000+ concurrent reports required MongoDB index tuning and query caching, yielding a 70% performance gain.</p>
+    <div class="m-sh">Tech Stack</div><div class="ptags"><span class="ptag">MongoDB</span><span class="ptag">Express.js</span><span class="ptag">React.js</span><span class="ptag">Node.js</span><span class="ptag">REST APIs</span><span class="ptag">Geospatial</span></div>
+    <div class="m-links"><a href="https://github.com/N15H7HA" target="_blank" rel="noopener" class="mlink">GitHub</a></div>
+  </div>
+</div></div>
+
+<div class="mbg" id="m2" role="dialog" aria-modal="true" aria-labelledby="m2t"><div class="modal">
+  <div class="m-head"><h2 class="m-title" id="m2t">TraceID &mdash; CCTV Facial Recognition</h2><button class="m-close" onclick="closeModal('m2')" aria-label="Close">&times;</button></div>
+  <div class="m-body">
+    <div class="kpis"><div class="kpi"><div class="kpi-n">94%</div><div class="kpi-l">Accuracy</div></div><div class="kpi"><div class="kpi-n">70%</div><div class="kpi-l">Effort saved</div></div><div class="kpi"><div class="kpi-n">Frame</div><div class="kpi-l">-wise</div></div></div>
+    <div class="m-sh">Problem Statement</div><p class="m-p">Law enforcement manually reviews hours of CCTV footage to locate missing individuals &mdash; slow, error-prone, and resource-intensive.</p>
+    <div class="m-sh">Architecture</div><p class="m-p">Video ingestion &rarr; Frame extraction (OpenCV) &rarr; Face detection &rarr; Embedding comparison (face_recognition / dlib) &rarr; Timestamp logging &rarr; Alert output.</p>
+    <div class="m-sh">Key Features</div>
+    <ul class="m-ul">
+      <li>94% identification accuracy across varied lighting and occlusion</li>
+      <li>Automated frame-wise detection with precise timestamp logging</li>
+      <li>Reduced manual effort by 70%; hours processed in minutes</li>
+      <li>Multi-camera and live stream extensibility</li>
+    </ul>
+    <div class="m-sh">Challenges</div><p class="m-p">Consistent accuracy under poor CCTV lighting required histogram equalisation and CLAHE preprocessing before embedding extraction.</p>
+    <div class="m-sh">Tech Stack</div><div class="ptags"><span class="ptag">Python</span><span class="ptag">OpenCV</span><span class="ptag">face_recognition</span><span class="ptag">dlib</span><span class="ptag">NumPy</span></div>
+    <div class="m-links"><a href="https://github.com/N15H7HA" target="_blank" rel="noopener" class="mlink">GitHub</a></div>
+  </div>
+</div></div>
+
+<div class="mbg" id="m3" role="dialog" aria-modal="true" aria-labelledby="m3t"><div class="modal">
+  <div class="m-head"><h2 class="m-title" id="m3t">Emotional Arcs of Shakespeare</h2><button class="m-close" onclick="closeModal('m3')" aria-label="Close">&times;</button></div>
+  <div class="m-body">
+    <div class="kpis"><div class="kpi"><div class="kpi-n">88.1%</div><div class="kpi-l">Emotion class. acc.</div></div><div class="kpi"><div class="kpi-n">74.3%</div><div class="kpi-l">Sentiment acc.</div></div><div class="kpi"><div class="kpi-n">Mar 2026</div><div class="kpi-l">Submitted</div></div><div class="kpi"><div class="kpi-n">Sci. Rep.</div><div class="kpi-l">Under review</div></div></div>
+    <div class="m-sh">Problem Statement</div><p class="m-p">How can Transformer-based NLP decode the emotional complexity of Early Modern English, mapping how Shakespearean characters evolve across acts and scenes?</p>
+    <div class="m-sh">Architecture</div><p class="m-p">Domain-adapted corpus &rarr; Fine-tuned DistilRoBERTa &amp; DistilBERT &rarr; Six-class emotion classifier &amp; sentiment model &rarr; Scene-level aggregation &rarr; Arc visualisation pipeline.</p>
+    <div class="m-sh">Key Features</div>
+    <ul class="m-ul">
+      <li>Fine-tuned DistilRoBERTa and DistilBERT on Early Modern English for domain adaptation</li>
+      <li>Six-class emotion classification at 88.1% accuracy and sentiment analysis at 74.3% accuracy</li>
+      <li>Temporal arc mapping across all acts and scenes</li>
+      <li>Character-level and play-level emotion heatmaps</li>
+    </ul>
+    <div class="m-sh">Challenges</div><p class="m-p">Early Modern English deviates significantly from modern corpora. Targeted fine-tuning on digitised Shakespearean texts substantially improved token-level emotion attribution.</p>
+    <div class="m-sh">Tech Stack</div><div class="ptags"><span class="ptag">PyTorch</span><span class="ptag">HuggingFace</span><span class="ptag">DistilRoBERTa</span><span class="ptag">DistilBERT</span><span class="ptag">Python</span><span class="ptag">Scikit-learn</span></div>
+    <div class="m-links"><a href="https://github.com/N15H7HA" target="_blank" rel="noopener" class="mlink">GitHub</a></div>
+  </div>
+</div></div>
+
+<div class="mbg" id="m4" role="dialog" aria-modal="true" aria-labelledby="m4t"><div class="modal">
+  <div class="m-head"><h2 class="m-title" id="m4t">Brain Tumor Detection &mdash; EfficientNet-B3 &amp; Grad-CAM++</h2><button class="m-close" onclick="closeModal('m4')" aria-label="Close">&times;</button></div>
+  <div class="m-body">
+    <div class="kpis"><div class="kpi"><div class="kpi-n">98.03%</div><div class="kpi-l">Test accuracy</div></div><div class="kpi"><div class="kpi-n">0.9994</div><div class="kpi-l">AUC</div></div><div class="kpi"><div class="kpi-n">0.97</div><div class="kpi-l">Cohen&rsquo;s &kappa;</div></div><div class="kpi"><div class="kpi-n">0.99</div><div class="kpi-l">F2 score</div></div></div>
+    <div class="m-sh">Problem Statement</div><p class="m-p">Reliable MRI brain-tumor detection demands both high accuracy and clinical interpretability, yet limited medical datasets and class imbalance make robust, trustworthy models hard to train.</p>
+    <div class="m-sh">Architecture</div><p class="m-p">MRI input &rarr; EfficientNet-B3 backbone &rarr; custom classification head &rarr; Focal Loss with label smoothing &rarr; Grad-CAM++ localisation &rarr; interpretable heatmap output.</p>
+    <div class="m-sh">Key Features</div>
+    <ul class="m-ul">
+      <li>Binary MRI brain-tumor classifier on EfficientNet-B3 with a custom classification head, reaching 98.03% test accuracy and AUC 0.9994 on a 305-image held-out test set</li>
+      <li>Focal Loss with label smoothing, MixUp augmentation, and CosineAnnealingWarmRestarts to handle class imbalance and improve generalisation on a limited medical dataset</li>
+      <li>Grad-CAM++ for pixel-level tumor localisation, producing clinically interpretable heatmaps to support radiologist trust in AI predictions</li>
+      <li>Zero false positives, a 2.84% false-negative rate across 305 held-out test images, Cohen&rsquo;s Kappa of 0.97, and F2 score of 0.99</li>
+    </ul>
+    <div class="m-sh">Results</div><p class="m-p">Outperformed ResNet50, DenseNet201, and Inception baselines while delivering explainable, clinically actionable predictions.</p>
+    <div class="m-sh">Tech Stack</div><div class="ptags"><span class="ptag">PyTorch</span><span class="ptag">EfficientNet-B3</span><span class="ptag">Grad-CAM++</span><span class="ptag">Explainable AI</span><span class="ptag">Deep Learning</span></div>
+    <div class="m-links"><a href="https://github.com/N15H7HA" target="_blank" rel="noopener" class="mlink">GitHub</a></div>
+  </div>
+</div></div>
+
+<div class="mbg" id="m5" role="dialog" aria-modal="true" aria-labelledby="m5t"><div class="modal">
+  <div class="m-head"><h2 class="m-title" id="m5t">Fuzzy Logic Person Re-Identification</h2><button class="m-close" onclick="closeModal('m5')" aria-label="Close">&times;</button></div>
+  <div class="m-body">
+    <div class="kpis"><div class="kpi"><div class="kpi-n">99.25%</div><div class="kpi-l">Accuracy</div></div><div class="kpi"><div class="kpi-n">99.27%</div><div class="kpi-l">ROC-AUC</div></div><div class="kpi"><div class="kpi-n">98.75%</div><div class="kpi-l">mAP</div></div><div class="kpi"><div class="kpi-n">100%</div><div class="kpi-l">Rank-1</div></div></div>
+    <div class="m-sh">Problem Statement</div><p class="m-p">Cross-camera person re-identification must match individuals across viewpoints and lighting, where rigid manual thresholds on deep features generalise poorly.</p>
+    <div class="m-sh">Architecture</div><p class="m-p">Person image &rarr; part-based split (head, torso, legs) &rarr; ResNet-50 embeddings + HSV histograms + HOG descriptors &rarr; weighted feature fusion &rarr; GMM-calibrated Type-1 Mamdani fuzzy inference &rarr; ReID decision.</p>
+    <div class="m-sh">Key Features</div>
+    <ul class="m-ul">
+      <li>Type-1 Mamdani fuzzy inference system integrated with deep-learning features for cross-camera surveillance ReID</li>
+      <li>Part-based pipeline dividing person images into head, torso, and leg regions; ResNet-50 embeddings, HSV color histograms, and HOG descriptors</li>
+      <li>Weighted feature-fusion framework with fuzzy membership functions calibrated via Gaussian Mixture Models (GMM) to eliminate manual threshold tuning</li>
+      <li>SMOTE-based class balancing and decision thresholds optimised with a combined Youden-J and Maximum-F1 strategy</li>
+    </ul>
+    <div class="m-sh">Results</div><p class="m-p">Evaluated on the PETS 2009 benchmark: 99.25% Accuracy, 99.27% ROC-AUC, 98.75% mAP, and 100% Rank-1 Accuracy.</p>
+    <div class="m-sh">Tech Stack</div><div class="ptags"><span class="ptag">Python</span><span class="ptag">PyTorch</span><span class="ptag">ResNet-50</span><span class="ptag">YOLOv8</span><span class="ptag">OpenCV</span><span class="ptag">Scikit-learn</span><span class="ptag">Fuzzy Logic</span><span class="ptag">GMM</span></div>
+    <div class="m-links"><a href="https://github.com/N15H7HA" target="_blank" rel="noopener" class="mlink">GitHub</a></div>
+  </div>
+</div></div>
+
+<script src="/Users/nishh/Desktop/Portfolio /script.js"></script>
+</body>
+</html>
